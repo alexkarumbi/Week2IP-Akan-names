@@ -19,29 +19,28 @@
                     <h2>Fill in your details</h2>
                 <div class="form-control">
                     <label class="label">Year</label>
-                    <input type="number" placeholder="year" id="YearField" required>
+                    <input type="text" placeholder="e.g 1988" id="YearField" required>
                 </div>
                 <div class="form-control">
                     <label class="label">Month</label>
-                    <input type="number" placeholder="year" id="MOnthField" required>
+                    <input type="text" placeholder="month" id="MonthField" required>
                 </div>
                 <div class="form-control">
                     <label class="label">Date</label>
-                    <input type="number" placeholder="Date" id="DateField" required>
+                    <input type="text" placeholder="Date" id="DateField" required>
                 </div>
                 <select class="form-control" name="Gender" id="gender" required>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
     
-                <button>submit</button>
+                <button onclick="validateform()">submit</button>
     
             
             </form>
         </div>
 
-        
     </div>
-    <script src="/Javascript/script.js"></script>
+    <script src="Javascript/script.js"></script>
 </body>
 </html>
