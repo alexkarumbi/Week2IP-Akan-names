@@ -14,6 +14,7 @@
 * HTML
 * CSS
 * Bootstrap
+* Javascript
 ## Support and Contact deatials
 {Contact me through:alex.muhia@student.moringaschool.com}
 ## License
