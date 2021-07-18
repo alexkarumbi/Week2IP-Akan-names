@@ -12,4 +12,14 @@ form{
     background: white;
     border-radius: 5px;
     font-size: 20px;
+    width: 400px;
+    max-width: 100%;
+}
+h2{
+    background: whitesmoke;
+    padding: 20px 40px;
+}
+
+.form-control{
+    padding: 10px;
 }
