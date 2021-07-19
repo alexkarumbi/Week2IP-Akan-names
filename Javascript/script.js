@@ -33,7 +33,7 @@ var getuserdetails =function(){
     if (intyear >2021){
         alert("Enter valid year")
     }
-    if(intdate <=0 || intdate>31){
+    if(intdate <=0 || intdate>31 || intmonth==2 & intdate>29){
         alert("Enter correct date")
     }
     if(intmonth<=0||intmonth>12){
