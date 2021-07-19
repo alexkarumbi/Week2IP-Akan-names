@@ -32,23 +32,28 @@ var getuserdetails =function(){
 
     if (intyear >2021){
         alert("Enter valid year")
+        return false;
     }
     if(intdate <=0 || intdate>31){
         alert("Enter valid date")
+        return false;
     }
     if(intyear % 4 !==0 & intmonth==2 & intdate>=29){
         alert("Enter valid date")
+        return false;
     }
     if(intyear % 4 ===0 & intmonth==2 & intdate>29){
         alert("Enter valid date")
+        return false;
     }
     if(intmonth<=0||intmonth>12){
         alert("Enter valid month")
+        return false;
     }
     
         let CC=parseInt(Inputyear.slice(0,2));
         let YY=parseInt(Inputyear.slice(2,4));
-        let MM=parseInt(Inputmonth);
+        let MM=parseInt(Inputmonth)+2;
         let DD=parseInt(Inputdate);
     
          let Dayoftheweek= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
