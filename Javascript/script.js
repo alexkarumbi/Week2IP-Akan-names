@@ -9,7 +9,7 @@
 
      if (year ==""|| month==""|| day==""){
         console.log()
-        alert("Please fill in all deatils")
+        alert("Please fill in all details")
         return false ;
      }else{
          getuserdetails()
