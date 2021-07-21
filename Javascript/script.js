@@ -9,7 +9,7 @@
 
      if (year ==""|| month==""|| day==""){
         console.log()
-        alert("Please fill in all deatils")
+        alert("Please fill in all details")
         return false ;
      }else{
          getuserdetails()
@@ -42,7 +42,7 @@ var getuserdetails =function(){
         alert("Enter valid date")
         return false;
     }
-    if(intyear % 4 ===0 & intmonth==2 & intdate>29){
+    if(intyear % 4 ==0 & intmonth==2 & intdate>29){
         alert("Enter valid date")
         return false;
     }
